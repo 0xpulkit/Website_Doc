@@ -428,10 +428,7 @@ a:focus {
         justify-content: center;
         align-items: center;
     }
-    h4{
-        text-align: center;
-        padding-left: 2em;
-    }
+   
   }
 
 @media (max-width: 575.98px) {
@@ -462,14 +459,10 @@ a:focus {
         font-size: 18px;
         height: 18px;
     }
-    h4{
-        text-align: center;
-        padding-left: 6em;
-      
-    }
+   
 }
 
-
+.something { display: inline-block; }
 /*******************************/
 /******* Section Header ********/
 /*******************************/
@@ -1816,5 +1809,7 @@ a:focus {
     }
   }
 
+
+ 
   
   

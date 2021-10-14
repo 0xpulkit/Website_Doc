@@ -67,14 +67,16 @@
     
     
     // Typed Initiate
-    if ($('.hero .hero-text h3').length == 1) {
-        var typed_strings = $('.hero .hero-text .typed-text').text();
-        var typed = new Typed('.hero .hero-text h3', {
+    if ($(' .hero-text h3').length == 1) {
+        var typed_strings = $('.hero-text .typed-text').text();
+        var typed = new Typed(' .hero-text h3', {
             strings: typed_strings.split(', '),
             typeSpeed: 100,
             backSpeed: 10,
             smartBackspace: false,
-            loop: true
+            loop: true,
+            showCursor: false,
+         
         });
     }
     
